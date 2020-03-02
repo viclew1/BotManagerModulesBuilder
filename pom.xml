@@ -1,21 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>BotManagerModulesBuilder</groupId>
-	<artifactId>BotManagerModulesBuilder</artifactId>
-	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>BotManagerModulesBuilder</groupId>
+    <artifactId>BotManagerModulesBuilder</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
 
-	<modules>
-		<module>../DefaultParameterizedApp</module>
-		<module>../DefaultBot</module>
-		<module>../LeekWarsBot</module>
-		<module>../SmutstoneBot</module>
-		<module>../HHBot</module>
-		<module>../BotManagerEntities</module>
-		<module>../BotManagerCli</module>
-		<module>../BotManager</module>
-	</modules>
+    <modules>
+        <module>../BotRunner</module>
+        <module>../HHBot</module>
+        <module>../BotManagerEntities</module>
+        <module>../BotManager</module>
+    </modules>
 
 </project>
