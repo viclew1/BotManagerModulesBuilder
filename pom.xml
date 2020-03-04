@@ -19,6 +19,7 @@
         <module>../SpringBotRunner</module>
         <module>../BotManagerEntities</module>
         <module>../HHBot</module>
+        <module>../LWBot</module>
         <module>../BotManager</module>
     </modules>
 
