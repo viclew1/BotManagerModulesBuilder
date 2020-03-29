@@ -1,21 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>BotManagerModulesBuilder</groupId>
-	<artifactId>BotManagerModulesBuilder</artifactId>
-	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>BotManagerModulesBuilder</groupId>
+    <artifactId>BotManagerModulesBuilder</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
 
-	<modules>
-		<module>../DefaultParameterizedApp</module>
-		<module>../DefaultBot</module>
-		<module>../LeekWarsBot</module>
-		<module>../SmutstoneBot</module>
-		<module>../HHBot</module>
-		<module>../BotManagerEntities</module>
-		<module>../BotManagerCli</module>
-		<module>../BotManager</module>
-	</modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <kotlin.version>1.3.61</kotlin.version>
+        <java.version>1.8</java.version>
+        <kotlin.compiler.jvmTarget>${java.version}</kotlin.compiler.jvmTarget>
+    </properties>
+
+    <modules>
+        <module>../SpringBotRunner</module>
+        <module>../BotManagerEntities</module>
+        <module>../HHBot</module>
+        <module>../LeekwarsBot</module>
+        <module>../BotManager</module>
+    </modules>
 
 </project>
