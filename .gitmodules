@@ -1,0 +1,15 @@
+[submodule "SpringBotRunner"]
+	path = SpringBotRunner
+	url = https://github.com/viclew1/SpringBotRunner.git
+[submodule "BotManagerEntities"]
+	path = BotManagerEntities
+	url = https://github.com/viclew1/BotManagerEntities.git
+[submodule "BotManager"]
+	path = BotManager
+	url = https://github.com/viclew1/BotManager.git
+[submodule "HHBot"]
+	path = HHBot
+	url = https://github.com/viclew1/HHBot.git
+[submodule "LeekwarsBot"]
+	path = LeekwarsBot
+	url = https://github.com/viclew1/LeekwarsBot.git
