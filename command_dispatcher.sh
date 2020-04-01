@@ -6,6 +6,18 @@ array=($(grep -oP '(?<=<module>).*?(?=</module)' $DIR/pom.xml))
 
 # Repeat of the passed commands in every module directory
 for i in "${array[@]}"; do
+  echo "-----------------------"
+  echo "$DIR/$i"
+  echo "-----------------------"
+
+  cd "$DIR"
   cd "$DIR/$i"
   "$@"
+  echo " "
 done
+
+echo "-----------------------"
+echo "$DIR"
+echo "-----------------------"
+cd "$DIR"
+"$@"

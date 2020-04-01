@@ -16,11 +16,11 @@
     </properties>
 
     <modules>
-        <module>../SpringBotRunner</module>
-        <module>../BotManagerEntities</module>
-        <module>../HHBot</module>
-        <module>../LeekwarsBot</module>
-        <module>../BotManager</module>
+        <module>SpringBotRunner</module>
+        <module>BotManagerEntities</module>
+        <module>HHBot</module>
+        <module>LeekwarsBot</module>
+        <module>BotManager</module>
     </modules>
 
 </project>
