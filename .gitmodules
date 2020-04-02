@@ -1,20 +1,20 @@
 [submodule "SpringBotRunner"]
 	path = SpringBotRunner
-	update = --init merge
+	update = rebase
 	url = https://github.com/viclew1/SpringBotRunner.git
 [submodule "BotManagerEntities"]
 	path = BotManagerEntities
-	update = --init merge
+	update = rebase
 	url = https://github.com/viclew1/BotManagerEntities.git
 [submodule "BotManager"]
 	path = BotManager
-	update = --init merge
+	update = rebase
 	url = https://github.com/viclew1/BotManager.git
 [submodule "HHBot"]
 	path = HHBot
-	update = --init merge
+	update = rebase
 	url = https://github.com/viclew1/HHBot.git
 [submodule "LeekwarsBot"]
 	path = LeekwarsBot
-	update = --init merge
+	update = rebase
 	url = https://github.com/viclew1/LeekwarsBot.git
