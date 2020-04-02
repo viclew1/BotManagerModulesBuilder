@@ -1,20 +1,20 @@
 [submodule "SpringBotRunner"]
 	path = SpringBotRunner
+	update = checkout
 	url = https://github.com/viclew1/SpringBotRunner.git
-    branch = master
 [submodule "BotManagerEntities"]
 	path = BotManagerEntities
+	update = checkout
 	url = https://github.com/viclew1/BotManagerEntities.git
-    branch = master
 [submodule "BotManager"]
 	path = BotManager
+	update = checkout
 	url = https://github.com/viclew1/BotManager.git
-    branch = master
 [submodule "HHBot"]
 	path = HHBot
+	update = checkout
 	url = https://github.com/viclew1/HHBot.git
-    branch = master
 [submodule "LeekwarsBot"]
 	path = LeekwarsBot
+	update = checkout
 	url = https://github.com/viclew1/LeekwarsBot.git
-    branch = master
