@@ -18,3 +18,8 @@
 	path = LeekwarsBot
 	update = rebase
 	url = https://github.com/viclew1/LeekwarsBot.git
+[submodule "StocksBot"]
+	path = StocksBot
+	update = rebase
+	url = https://github.com/viclew1/StocksBot.git
+
