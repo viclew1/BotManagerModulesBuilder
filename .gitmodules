@@ -1,7 +1,7 @@
-[submodule "SpringBotRunner"]
-	path = SpringBotRunner
+[submodule "VLBotRunner"]
+	path = VLBotRunner
 	update = rebase
-	url = https://github.com/viclew1/SpringBotRunner.git
+	url = https://github.com/viclew1/VLBotRunner
 [submodule "BotManagerEntities"]
 	path = BotManagerEntities
 	update = rebase
